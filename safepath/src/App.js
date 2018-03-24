@@ -1,13 +1,15 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
-
+import FindPathComponent from './findPathComponent';
 import {
   FormGroup,
   FormControl,
   Grid,
   Row,
   Col,
-  Button
+  Button,
+  ButtonToolbar,
+  PageHeader
 } from "react-bootstrap";
 
 import "./App.css";
@@ -16,18 +18,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+         <PageHeader>
+          <h1 className="App-title">SafePath</h1>
+        </PageHeader>
         <Grid>
-          <Col md={6}> hid </Col>
-          <Col md={6}> hi </Col>
+          <Row>
+          <FindPathComponent />
+          </Row>
         </Grid>
-        <Button> hi </Button>
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
       </div>
     );
   }
