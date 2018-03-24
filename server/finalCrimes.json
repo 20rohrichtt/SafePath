@@ -1,0 +1,1283 @@
+[
+  {
+    "lon": -78.4931491,
+    "lat": 38.0598674,
+    "type": "Other",
+    "address": "1800 EMMET",
+    "date": "03/04/2018"
+  },
+  { "type": "Assault", "address": "1100 5TH", "date": "03/04/2018" },
+  {
+    "lon": -78.498468,
+    "lat": 38.052833,
+    "type": "Arrest",
+    "address": "1200 EMMET",
+    "date": "03/04/2018"
+  },
+  {
+    "lon": -78.4849842,
+    "lat": 38.0187068,
+    "type": "Vandalism",
+    "address": "1500 6TH",
+    "date": "03/04/2018"
+  },
+  {
+    "lon": -78.4784596,
+    "lat": 38.0314062,
+    "type": "Vandalism",
+    "address": "400 JEFFERSON",
+    "date": "03/04/2018"
+  },
+  {
+    "lon": -78.49440609999999,
+    "lat": 38.0246454,
+    "type": "Other",
+    "address": "700 PROSPECT",
+    "date": "03/03/2018"
+  },
+  {
+    "lon": -78.513081,
+    "lat": 38.024146,
+    "type": "Assault",
+    "address": "200 ROBERTSON",
+    "date": "03/03/2018"
+  },
+  { "type": "Assault", "address": "1700 EMMET", "date": "03/03/2018" },
+  {
+    "lon": -78.49440609999999,
+    "lat": 38.0246454,
+    "type": "Arrest",
+    "address": "700 PROSPECT",
+    "date": "03/03/2018"
+  },
+  {
+    "lon": -78.4900315,
+    "lat": 38.0347862,
+    "type": "Vandalism",
+    "address": "800 ANDERSON",
+    "date": "03/03/2018"
+  },
+  {
+    "lon": -78.5335379,
+    "lat": 38.009518,
+    "type": "Vandalism",
+    "address": "900 ROCK CREEK",
+    "date": "03/03/2018"
+  },
+  {
+    "lon": -78.4837855,
+    "lat": 38.0221795,
+    "type": "Vandalism",
+    "address": "500 ELLIOTT",
+    "date": "03/03/2018"
+  },
+  {
+    "lon": -78.4931527,
+    "lat": 38.0352244,
+    "type": "Theft",
+    "address": "300 10TH",
+    "date": "03/03/2018"
+  },
+  { "type": "Assault", "address": "1000 LONG", "date": "03/02/2018" },
+  {
+    "lon": -78.48571299999999,
+    "lat": 38.023259,
+    "type": "Assault",
+    "address": "500 1ST",
+    "date": "03/02/2018"
+  },
+  { "type": "Assault", "address": "600 PRESTON", "date": "03/02/2018" },
+  {
+    "lon": -78.47661409999999,
+    "lat": 38.029236,
+    "type": "Assault",
+    "address": "700 MAIN",
+    "date": "03/02/2018"
+  },
+  {
+    "lon": -78.48791899999999,
+    "lat": 38.0307806,
+    "type": "Theft",
+    "address": "500 MAIN",
+    "date": "03/02/2018"
+  },
+  {
+    "lon": -78.48753529999999,
+    "lat": 38.0284964,
+    "type": "Robbery",
+    "address": "DICE",
+    "date": "03/02/2018"
+  },
+  { "type": "Other", "address": "200 9TH", "date": "03/01/2018" },
+  {
+    "lon": -78.50270789999999,
+    "lat": 38.0198312,
+    "type": "Other",
+    "address": "1600 DUBLIN",
+    "date": "03/01/2018"
+  },
+  {
+    "lon": -78.490864,
+    "lat": 38.0317157,
+    "type": "Arrest",
+    "address": "800 MAIN",
+    "date": "03/01/2018"
+  },
+  {
+    "lon": -78.47596419999999,
+    "lat": 38.0523149,
+    "type": "Arrest",
+    "address": "1400 MELBOURNE",
+    "date": "03/01/2018"
+  },
+  {
+    "lon": -78.49466199999999,
+    "lat": 38.038556,
+    "type": "Arrest",
+    "address": "500 12TH",
+    "date": "03/01/2018"
+  },
+  {
+    "lon": -78.5079772,
+    "lat": 38.0335529,
+    "type": "Vandalism",
+    "address": "1500 UNIVERSITY",
+    "date": "03/01/2018"
+  },
+  { "type": "Vandalism", "address": "100 MCINTIRE PARK", "date": "03/01/2018" },
+  {
+    "lon": -78.4725131,
+    "lat": 38.0232746,
+    "type": "Vandalism",
+    "address": "500 BAINBRIDGE",
+    "date": "03/01/2018"
+  },
+  {
+    "lon": -78.4803241,
+    "lat": 38.0279731,
+    "type": "Burglary",
+    "address": "400 GARRETT",
+    "date": "03/01/2018"
+  },
+  {
+    "lon": -78.4947064,
+    "lat": 38.0300327,
+    "type": "Theft",
+    "address": "300 9TH",
+    "date": "03/01/2018"
+  },
+  {
+    "lon": -78.48071019999999,
+    "lat": 38.0339597,
+    "type": "Theft",
+    "address": "100 ALTAMONT",
+    "date": "03/01/2018"
+  },
+  {
+    "lon": -78.5014782,
+    "lat": 38.0553554,
+    "type": "Theft",
+    "address": "1200 CEDARS",
+    "date": "03/01/2018"
+  },
+  {
+    "lon": -78.4815291,
+    "lat": 38.031353,
+    "type": "Assault",
+    "address": "100 MARKET",
+    "date": "02/28/2018"
+  },
+  { "type": "Assault", "address": "1500 ROSA", "date": "02/28/2018" },
+  { "type": "Theft", "address": "300 7 1/2", "date": "02/28/2018" },
+  {
+    "lon": -78.4781914,
+    "lat": 38.0195859,
+    "type": "Theft",
+    "address": "900 ELLIOTT",
+    "date": "02/28/2018"
+  },
+  {
+    "lon": -78.493349,
+    "lat": 38.0282964,
+    "type": "Assault",
+    "address": "800 CHERRY",
+    "date": "02/27/2018"
+  },
+  {
+    "lon": -78.4810329,
+    "lat": 38.0433692,
+    "type": "Vandalism",
+    "address": "100 WESTWOOD",
+    "date": "02/27/2018"
+  },
+  {
+    "lon": -78.48598539999999,
+    "lat": 38.0196294,
+    "type": "Vandalism",
+    "address": "1500 ROSA",
+    "date": "02/27/2018"
+  },
+  {
+    "lon": -78.48258679999999,
+    "lat": 38.0336497,
+    "type": "Vandalism",
+    "address": "400 HIGH",
+    "date": "02/27/2018"
+  },
+  {
+    "lon": -78.4857883,
+    "lat": 38.02840399999999,
+    "type": "Vandalism",
+    "address": "300 MONTICELLO",
+    "date": "02/27/2018"
+  },
+  {
+    "lon": -78.4952169,
+    "lat": 38.0323477,
+    "type": "Vandalism",
+    "address": "1000 MAIN",
+    "date": "02/27/2018"
+  },
+  {
+    "lon": -78.477417,
+    "lat": 38.026794,
+    "type": "Burglary",
+    "address": "300 AVON",
+    "date": "02/27/2018"
+  },
+  {
+    "lon": -78.47550710000002,
+    "lat": 38.0251455,
+    "type": "Theft",
+    "address": "100 MONTICELLO",
+    "date": "02/27/2018"
+  },
+  {
+    "lon": -78.49892349999999,
+    "lat": 38.0348151,
+    "type": "Other",
+    "address": "200 14TH",
+    "date": "02/26/2018"
+  },
+  {
+    "lon": -78.4815291,
+    "lat": 38.031353,
+    "type": "Assault",
+    "address": "100 MARKET",
+    "date": "02/26/2018"
+  },
+  {
+    "lon": -78.47602909999999,
+    "lat": 38.0295562,
+    "type": "Vandalism",
+    "address": "800 MARKET ST",
+    "date": "02/26/2018"
+  },
+  {
+    "lon": -78.4795567,
+    "lat": 38.0264032,
+    "type": "Vandalism",
+    "address": "600 HINTON",
+    "date": "02/26/2018"
+  },
+  { "type": "Theft", "address": "400 HIGH", "date": "02/26/2018" },
+  {
+    "lon": -78.4641604,
+    "lat": 38.0411688,
+    "type": "Theft",
+    "address": "1000 ST CHARLES",
+    "date": "02/26/2018"
+  },
+  { "type": "Other", "address": "800 HENRY", "date": "02/25/2018" },
+  {
+    "lon": -78.47952339999999,
+    "lat": 38.0308985,
+    "type": "Other",
+    "address": "300 MARKET",
+    "date": "02/25/2018"
+  },
+  {
+    "lon": -78.47992339999999,
+    "lat": 38.0301944,
+    "type": "Other",
+    "address": "300 MAIN",
+    "date": "02/25/2018"
+  },
+  {
+    "lon": -78.5014782,
+    "lat": 38.0553554,
+    "type": "Assault",
+    "address": "1200 CEDARS",
+    "date": "02/25/2018"
+  },
+  {
+    "lon": -78.4847547,
+    "lat": 38.0390217,
+    "type": "Assault",
+    "address": "1000 FOREST",
+    "date": "02/25/2018"
+  },
+  { "type": "Assault", "address": "1500 UNIVERSITY", "date": "02/25/2018" },
+  { "type": "Theft", "address": "1100 5TH", "date": "02/25/2018" },
+  { "type": "Theft", "address": "1500 UNIVERSITY", "date": "02/25/2018" },
+  { "type": "Theft", "address": "2000 HOLIDAY", "date": "02/25/2018" },
+  {
+    "lon": -78.46188529999999,
+    "lat": 38.0329084,
+    "type": "Other",
+    "address": "1500 HIGH",
+    "date": "02/24/2018"
+  },
+  {
+    "lon": -78.490864,
+    "lat": 38.0317157,
+    "type": "Arrest",
+    "address": "800 MAIN",
+    "date": "02/24/2018"
+  },
+  {
+    "lon": -78.4916243,
+    "lat": 38.0391732,
+    "type": "Arrest",
+    "address": "1000 PRESTON",
+    "date": "02/24/2018"
+  },
+  { "type": "Arrest", "address": "900 MAIN", "date": "02/24/2018" },
+  {
+    "lon": -78.49879039999999,
+    "lat": 38.0380253,
+    "type": "Vandalism",
+    "address": "1500 VIRGINIA",
+    "date": "02/24/2018"
+  },
+  {
+    "lon": -78.50007339999999,
+    "lat": 38.0513687,
+    "type": "Theft",
+    "address": "1100 EMMET ST",
+    "date": "02/24/2018"
+  },
+  { "type": "Theft", "address": "1500 UNIVERSITY", "date": "02/24/2018" },
+  {
+    "lon": -78.48146779999999,
+    "lat": 38.0306701,
+    "type": "Theft",
+    "address": "100 MAIN",
+    "date": "02/24/2018"
+  },
+  { "type": "Assault", "address": "1600 MONTICELLO", "date": "02/23/2018" },
+  { "type": "Arrest", "address": "1400 VINE", "date": "02/23/2018" },
+  {
+    "lon": -78.469026,
+    "lat": 38.021904,
+    "type": "Arrest",
+    "address": "1300 CARLTON",
+    "date": "02/23/2018"
+  },
+  { "type": "Arrest", "address": "700 12TH", "date": "02/23/2018" },
+  {
+    "lon": -78.4902161,
+    "lat": 38.0334203,
+    "type": "Arrest",
+    "address": "800 HARDY",
+    "date": "02/23/2018"
+  },
+  { "type": "Arrest", "address": "1500 HIGH", "date": "02/23/2018" },
+  { "type": "Burglary", "address": "200 5TH", "date": "02/23/2018" },
+  {
+    "lon": -78.48791899999999,
+    "lat": 38.0307806,
+    "type": "Theft",
+    "address": "500 MAIN",
+    "date": "02/23/2018"
+  },
+  {
+    "lon": -78.48791899999999,
+    "lat": 38.0307806,
+    "type": "Theft",
+    "address": "500 MAIN",
+    "date": "02/23/2018"
+  },
+  { "type": "Other", "address": "1000 N EMMET ST", "date": "02/22/2018" },
+  {
+    "lon": -78.49430029999999,
+    "lat": 38.0414787,
+    "type": "Other",
+    "address": "PRESTON AVE / MCINTIRE RD",
+    "date": "02/22/2018"
+  },
+  { "type": "Assault", "address": "900 RAYMOND", "date": "02/22/2018" },
+  { "type": "Arrest", "address": "100 CARLTON", "date": "02/22/2018" },
+  {
+    "lon": -78.4715452,
+    "lat": 38.0294527,
+    "type": "Arrest",
+    "address": "300 11TH",
+    "date": "02/22/2018"
+  },
+  { "type": "Vandalism", "address": "500 JEFFERSON ST", "date": "02/22/2018" },
+  { "type": "Vandalism", "address": "200 7TH", "date": "02/22/2018" },
+  {
+    "lon": -78.4801598,
+    "lat": 38.0258145,
+    "type": "Burglary",
+    "address": "600 6TH",
+    "date": "02/22/2018"
+  },
+  {
+    "lon": -78.5042225,
+    "lat": 38.0510656,
+    "type": "Other",
+    "address": "1000 MILLMONT",
+    "date": "02/21/2018"
+  },
+  {
+    "lon": -78.5125946,
+    "lat": 38.0121271,
+    "type": "Assault",
+    "address": "300 AZALEA",
+    "date": "02/21/2018"
+  },
+  { "type": "Assault", "address": "1500 DAIRY RD RD N", "date": "02/21/2018" },
+  {
+    "lon": -78.4842295,
+    "lat": 38.0440933,
+    "type": "Arrest",
+    "address": "1500 WESTWOOD",
+    "date": "02/21/2018"
+  },
+  { "type": "Arrest", "address": "1500 ROSA", "date": "02/21/2018" },
+  { "type": "Vandalism", "address": "200 7TH", "date": "02/21/2018" },
+  { "type": "Burglary", "address": "800 KING", "date": "02/21/2018" },
+  { "type": "Theft", "address": "900 RAYMOND", "date": "02/21/2018" },
+  { "type": "Theft", "address": "600 BELMONT", "date": "02/21/2018" },
+  { "type": "Theft", "address": "100 MAYWOOD", "date": "02/21/2018" },
+  { "type": "Other", "address": "MONTROSE", "date": "02/20/2018" },
+  {
+    "lon": -78.4879016,
+    "lat": 38.0623473,
+    "type": "Assault",
+    "address": "2000 INDIA",
+    "date": "02/20/2018"
+  },
+  {
+    "lon": -78.4902161,
+    "lat": 38.0334203,
+    "type": "Assault",
+    "address": "800 HARDY",
+    "date": "02/20/2018"
+  },
+  { "type": "Theft", "address": "600 BELMONT", "date": "02/20/2018" },
+  { "type": "Theft", "address": "500 PRESTON", "date": "02/20/2018" },
+  {
+    "lon": -78.4671688,
+    "lat": 38.028156,
+    "type": "Other",
+    "address": "300 13TH",
+    "date": "02/19/2018"
+  },
+  {
+    "lon": -78.51011869999999,
+    "lat": 38.0209371,
+    "type": "Other",
+    "address": "2300 CRESTMONT",
+    "date": "02/19/2018"
+  },
+  { "type": "Other", "address": "300 PRESTON", "date": "02/19/2018" },
+  {
+    "lon": -78.4847954,
+    "lat": 38.0243919,
+    "type": "Vandalism",
+    "address": "800 1ST",
+    "date": "02/19/2018"
+  },
+  { "type": "Burglary", "address": "100 BROOKWOOD", "date": "02/19/2018" },
+  { "type": "Other", "address": "2300 ANGUS", "date": "02/18/2018" },
+  {
+    "lon": -78.4803241,
+    "lat": 38.0279731,
+    "type": "Assault",
+    "address": "400 GARRETT",
+    "date": "02/18/2018"
+  },
+  {
+    "lon": -78.47963899999999,
+    "lat": 38.0310685,
+    "type": "Arrest",
+    "address": "200 3RD",
+    "date": "02/18/2018"
+  },
+  {
+    "lon": -78.469787,
+    "lat": 38.0513426,
+    "type": "Arrest",
+    "address": "300 JOHN WARNER PARKWAY",
+    "date": "02/18/2018"
+  },
+  { "type": "Vandalism", "address": "800 HARDY", "date": "02/18/2018" },
+  {
+    "lon": -78.4717534,
+    "lat": 38.0340467,
+    "type": "Vandalism",
+    "address": "600 LEXINGTON",
+    "date": "02/18/2018"
+  },
+  { "type": "Theft", "address": "1200 WERTLAND", "date": "02/18/2018" },
+  {
+    "lon": -78.50007339999999,
+    "lat": 38.0513687,
+    "type": "Arrest",
+    "address": "1100 EMMET ST",
+    "date": "02/17/2018"
+  },
+  {
+    "lon": -78.4985288,
+    "lat": 38.0318629,
+    "type": "Arrest",
+    "address": "1200 LEE",
+    "date": "02/17/2018"
+  },
+  {
+    "lon": -78.4622103,
+    "lat": 38.0388926,
+    "type": "Vandalism",
+    "address": "1200 BELLEVIEW",
+    "date": "02/17/2018"
+  },
+  {
+    "lon": -78.51877979999999,
+    "lat": 38.0215853,
+    "type": "Vandalism",
+    "address": "200 HUNTLEY",
+    "date": "02/17/2018"
+  },
+  { "type": "Burglary", "address": "700 MAPLE", "date": "02/17/2018" },
+  { "type": "Theft", "address": "500 MAIN", "date": "02/17/2018" },
+  {
+    "lon": -78.4815291,
+    "lat": 38.031353,
+    "type": "Vandalism",
+    "address": "100 MARKET",
+    "date": "02/16/2018"
+  },
+  { "type": "Theft", "address": "1400 EMMET ST", "date": "02/16/2018" },
+  {
+    "lon": -78.4792377,
+    "lat": 38.0300748,
+    "type": "Theft",
+    "address": "100 4TH",
+    "date": "02/16/2018"
+  },
+  { "type": "Other", "address": "800 CHERRY", "date": "02/15/2018" },
+  { "type": "Assault", "address": "100 MAIN ST", "date": "02/15/2018" },
+  { "type": "Assault", "address": "900 MAIN", "date": "02/15/2018" },
+  { "type": "Assault", "address": "1300 LONG", "date": "02/15/2018" },
+  { "type": "Assault", "address": "900 CHARLTON", "date": "02/15/2018" },
+  { "type": "Arrest", "address": "1400 VINE", "date": "02/15/2018" },
+  { "type": "Vandalism", "address": "800 MAIN", "date": "02/15/2018" },
+  { "type": "Theft", "address": "1900 EMMET", "date": "02/15/2018" },
+  { "type": "Other", "address": "2300 ANGUS", "date": "02/14/2018" },
+  {
+    "lon": -78.4999725,
+    "lat": 38.0339357,
+    "type": "Assault",
+    "address": "1400 UNIVERSITY",
+    "date": "02/14/2018"
+  },
+  { "type": "Arrest", "address": "1000 MAIN", "date": "02/14/2018" },
+  {
+    "lon": -78.4925669,
+    "lat": 38.0606411,
+    "type": "Arrest",
+    "address": "1900 N EMMET ST",
+    "date": "02/14/2018"
+  },
+  { "type": "Vandalism", "address": "800 BELMONT", "date": "02/14/2018" },
+  {
+    "lon": -78.4682456,
+    "lat": 38.0336586,
+    "type": "Burglary",
+    "address": "700 GROVE",
+    "date": "02/14/2018"
+  },
+  { "type": "Theft", "address": "900 MONTROSE", "date": "02/14/2018" },
+  { "type": "Theft", "address": "300 14TH", "date": "02/14/2018" },
+  { "type": "Theft", "address": "800 HARDY", "date": "02/14/2018" },
+  { "type": "Other", "address": "1200 EMMET ST", "date": "02/13/2018" },
+  { "type": "Assault", "address": "1700 CHERRY", "date": "02/13/2018" },
+  {
+    "lon": -78.4870708,
+    "lat": 38.02128,
+    "type": "Assault",
+    "address": "100 LANKFORD",
+    "date": "02/13/2018"
+  },
+  {
+    "lon": -78.5189857,
+    "lat": 38.0257359,
+    "type": "Arrest",
+    "address": "2400 FONTAINE",
+    "date": "02/13/2018"
+  },
+  { "type": "Arrest", "address": "800 HARDY", "date": "02/13/2018" },
+  { "type": "Theft", "address": "1100 JOHN", "date": "02/13/2018" },
+  {
+    "lon": -78.4639162,
+    "lat": 38.0626608,
+    "type": "Theft",
+    "address": "1000 RIO",
+    "date": "02/13/2018"
+  },
+  {
+    "lon": -78.4803241,
+    "lat": 38.0279731,
+    "type": "Theft",
+    "address": "400 GARRETT",
+    "date": "02/13/2018"
+  },
+  {
+    "lon": -78.48697589999999,
+    "lat": 38.0369306,
+    "type": "Other",
+    "address": "800 DALE",
+    "date": "02/12/2018"
+  },
+  { "type": "Assault", "address": "700 PROSPECT", "date": "02/12/2018" },
+  { "type": "Arrest", "address": "100 MAIN", "date": "02/12/2018" },
+  { "type": "Arrest", "address": "200 DICE", "date": "02/12/2018" },
+  { "type": "Burglary", "address": "2200 ANGUS", "date": "02/12/2018" },
+  { "type": "Other", "address": "500 PARK", "date": "02/11/2018" },
+  { "type": "Assault", "address": "1300 MAIN", "date": "02/11/2018" },
+  { "type": "Arrest", "address": "200 ZAN", "date": "02/11/2018" },
+  { "type": "Vandalism", "address": "300 15TH", "date": "02/11/2018" },
+  { "type": "Burglary", "address": "200 CREAM", "date": "02/11/2018" },
+  { "type": "Theft", "address": "1000 LINDEN", "date": "02/11/2018" },
+  {
+    "lon": -78.46460069999999,
+    "lat": 38.0243644,
+    "type": "Theft",
+    "address": "1400 BURGESS",
+    "date": "02/11/2018"
+  },
+  {
+    "lon": -78.49940339999999,
+    "lat": 38.0341751,
+    "type": "Assault",
+    "address": "100 14TH",
+    "date": "02/10/2018"
+  },
+  {
+    "lon": -78.4916635,
+    "lat": 38.0385116,
+    "type": "Vandalism",
+    "address": "1000 GRADY",
+    "date": "02/10/2018"
+  },
+  { "type": "Burglary", "address": "400 GARRETT", "date": "02/10/2018" },
+  { "type": "Burglary", "address": "800 MAIN", "date": "02/10/2018" },
+  { "type": "Assault", "address": "200 WATER", "date": "02/09/2018" },
+  {
+    "lon": -78.48598539999999,
+    "lat": 38.0196294,
+    "type": "Assault",
+    "address": "1500 ROSA",
+    "date": "02/09/2018"
+  },
+  {
+    "lon": -78.4927323,
+    "lat": 38.0190761,
+    "type": "Assault",
+    "address": "900 RAYMOND",
+    "date": "02/09/2018"
+  },
+  { "type": "Arrest", "address": "200 WATER", "date": "02/09/2018" },
+  {
+    "lon": -78.50485909999999,
+    "lat": 38.0329016,
+    "type": "Arrest",
+    "address": "CABELL",
+    "date": "02/09/2018"
+  },
+  {
+    "lon": -78.4715452,
+    "lat": 38.0294527,
+    "type": "Arrest",
+    "address": "300 11TH",
+    "date": "02/09/2018"
+  },
+  {
+    "lon": -78.4867045,
+    "lat": 38.0271303,
+    "type": "Arrest",
+    "address": "500 RIDGE",
+    "date": "02/09/2018"
+  },
+  { "type": "Vandalism", "address": "HYDRAULIC", "date": "02/09/2018" },
+  { "type": "Theft", "address": "500 COURT", "date": "02/09/2018" },
+  { "type": "Theft", "address": "1500 DAIRY", "date": "02/09/2018" },
+  {
+    "lon": -78.4879016,
+    "lat": 38.0623473,
+    "type": "Other",
+    "address": "2000 INDIA",
+    "date": "02/08/2018"
+  },
+  { "type": "Other", "address": "1800 HYDRAULIC", "date": "02/08/2018" },
+  { "type": "Arrest", "address": "1400 BAKER", "date": "02/08/2018" },
+  { "type": "Vandalism", "address": "700 ORANGEDALE", "date": "02/08/2018" },
+  { "type": "Vandalism", "address": "1500 VIRGINIA", "date": "02/08/2018" },
+  { "type": "Theft", "address": "1000 MAIN", "date": "02/08/2018" },
+  { "type": "Other", "address": "500 7 1/2", "date": "02/07/2018" },
+  {
+    "lon": -78.4942116,
+    "lat": 38.038048,
+    "type": "Assault",
+    "address": "1000 GORDON",
+    "date": "02/07/2018"
+  },
+  { "type": "Burglary", "address": "100 ROTHERY", "date": "02/07/2018" },
+  {
+    "lon": -78.4983348,
+    "lat": 38.0434655,
+    "type": "Theft",
+    "address": "1800 FENDALL",
+    "date": "02/07/2018"
+  },
+  {
+    "lon": -78.4879587,
+    "lat": 38.0347112,
+    "type": "Theft",
+    "address": "700 WEST",
+    "date": "02/07/2018"
+  },
+  { "type": "Robbery", "address": "900 MARKET", "date": "02/07/2018" },
+  { "type": "Other", "address": "1800 HYDRAULIC", "date": "02/06/2018" },
+  { "type": "Other", "address": "500 PRESTON", "date": "02/06/2018" },
+  { "type": "Arrest", "address": "100 MARKET", "date": "02/06/2018" },
+  { "type": "Other", "address": "900 ST CLAIR", "date": "02/05/2018" },
+  { "type": "Other", "address": "800 MCINTIRE", "date": "02/05/2018" },
+  {
+    "lon": -78.4792377,
+    "lat": 38.0300748,
+    "type": "Other",
+    "address": "100 4TH",
+    "date": "02/05/2018"
+  },
+  { "type": "Assault", "address": "800 HARDY", "date": "02/05/2018" },
+  {
+    "lon": -78.47596419999999,
+    "lat": 38.0523149,
+    "type": "Arrest",
+    "address": "1400 MELBOURNE",
+    "date": "02/05/2018"
+  },
+  { "type": "Vandalism", "address": "800 MAIN", "date": "02/05/2018" },
+  {
+    "lon": -78.50007339999999,
+    "lat": 38.0513687,
+    "type": "Theft",
+    "address": "1100 EMMET ST",
+    "date": "02/05/2018"
+  },
+  {
+    "lon": -78.4969704,
+    "lat": 38.0368256,
+    "type": "Theft",
+    "address": "1300 JOHN",
+    "date": "02/05/2018"
+  },
+  { "type": "Other", "address": "600 SHAMROCK", "date": "02/04/2018" },
+  { "type": "Assault", "address": "1200 BELLEVIEW", "date": "02/04/2018" },
+  {
+    "lon": -78.46987759999999,
+    "lat": 38.0392796,
+    "type": "Arrest",
+    "address": "300 250 BYPASS",
+    "date": "02/04/2018"
+  },
+  {
+    "lon": -78.490864,
+    "lat": 38.0317157,
+    "type": "Vandalism",
+    "address": "800 MAIN",
+    "date": "02/04/2018"
+  },
+  {
+    "lon": -78.48258679999999,
+    "lat": 38.0336497,
+    "type": "Vandalism",
+    "address": "400 HIGH",
+    "date": "02/04/2018"
+  },
+  {
+    "lon": -78.48791899999999,
+    "lat": 38.0307806,
+    "type": "Theft",
+    "address": "500 MAIN",
+    "date": "02/04/2018"
+  },
+  {
+    "lon": -78.480583,
+    "lat": 38.029242,
+    "type": "Other",
+    "address": "200 WATER",
+    "date": "02/03/2018"
+  },
+  {
+    "lon": -78.4815291,
+    "lat": 38.031353,
+    "type": "Vandalism",
+    "address": "100 MARKET",
+    "date": "02/03/2018"
+  },
+  {
+    "lon": -78.482609,
+    "lat": 38.0376299,
+    "type": "Vandalism",
+    "address": "900 HARRIS",
+    "date": "02/03/2018"
+  },
+  {
+    "lon": -78.490864,
+    "lat": 38.0317157,
+    "type": "Assault",
+    "address": "800 MAIN",
+    "date": "02/02/2018"
+  },
+  {
+    "lon": -78.47745859999999,
+    "lat": 38.0304127,
+    "type": "Assault",
+    "address": "600 MARKET",
+    "date": "02/02/2018"
+  },
+  {
+    "lon": -78.498468,
+    "lat": 38.052833,
+    "type": "Arrest",
+    "address": "1200 EMMET",
+    "date": "02/02/2018"
+  },
+  {
+    "lon": -78.46987759999999,
+    "lat": 38.0392796,
+    "type": "Arrest",
+    "address": "100 250 BYPASS",
+    "date": "02/02/2018"
+  },
+  {
+    "lon": -78.49466199999999,
+    "lat": 38.038556,
+    "type": "Theft",
+    "address": "500 12TH",
+    "date": "02/02/2018"
+  },
+  {
+    "lon": -78.4878166,
+    "lat": 38.0285977,
+    "type": "Vandalism",
+    "address": "400 DICE",
+    "date": "02/01/2018"
+  },
+  {
+    "lon": -78.4810371,
+    "lat": 38.0158881,
+    "type": "Vandalism",
+    "address": "1600 MERIDIAN",
+    "date": "02/01/2018"
+  },
+  {
+    "lon": -78.4879016,
+    "lat": 38.0623473,
+    "type": "Vandalism",
+    "address": "2000 INDIA",
+    "date": "02/01/2018"
+  },
+  {
+    "lon": -78.4815291,
+    "lat": 38.031353,
+    "type": "Vandalism",
+    "address": "100 MARKET",
+    "date": "02/01/2018"
+  },
+  {
+    "lon": -78.48236,
+    "lat": 38.03091999999999,
+    "type": "Theft",
+    "address": "200 MAIN ST",
+    "date": "02/01/2018"
+  },
+  {
+    "lon": -78.4838259,
+    "lat": 38.0629785,
+    "type": "Theft",
+    "address": "2100 MICHIE",
+    "date": "02/01/2018"
+  },
+  {
+    "lon": -78.50881799999999,
+    "lat": 38.0446669,
+    "type": "Theft",
+    "address": "300 UNIVERSITY",
+    "date": "02/01/2018"
+  },
+  {
+    "lon": -78.47425659999999,
+    "lat": 38.0276414,
+    "type": "Assault",
+    "address": "100 GOODMAN",
+    "date": "01/31/2018"
+  },
+  {
+    "lon": -78.4889046,
+    "lat": 38.02896,
+    "type": "Assault",
+    "address": "300 5TH",
+    "date": "01/31/2018"
+  },
+  {
+    "lon": -78.5083337,
+    "lat": 38.0302354,
+    "type": "Burglary",
+    "address": "1700 JEFFERSON PARK",
+    "date": "01/31/2018"
+  },
+  {
+    "lon": -78.5030328,
+    "lat": 38.04380949999999,
+    "type": "Theft",
+    "address": "100 UNIVERSITY",
+    "date": "01/31/2018"
+  },
+  {
+    "lon": -77.175063,
+    "lat": 38.804066,
+    "type": "Other",
+    "address": "200 BYPASS",
+    "date": "01/30/2018"
+  },
+  {
+    "lon": -78.47835020000001,
+    "lat": 38.0281293,
+    "type": "Assault",
+    "address": "300 6TH",
+    "date": "01/30/2018"
+  },
+  {
+    "lon": -78.46987759999999,
+    "lat": 38.0392796,
+    "type": "Arrest",
+    "address": "300 250 BYPASS",
+    "date": "01/30/2018"
+  },
+  {
+    "lon": -78.47779179999999,
+    "lat": 38.0384794,
+    "type": "Arrest",
+    "address": "700 MCINTIRE",
+    "date": "01/30/2018"
+  },
+  {
+    "lon": -78.48568999999999,
+    "lat": 38.035484,
+    "type": "Vandalism",
+    "address": "PRESTON AVE / HARRIS",
+    "date": "01/30/2018"
+  },
+  {
+    "lon": -78.47579379999999,
+    "lat": 38.0313864,
+    "type": "Vandalism",
+    "address": "700 HIGH",
+    "date": "01/30/2018"
+  },
+  {
+    "lon": -78.46646059999999,
+    "lat": 38.0292656,
+    "type": "Vandalism",
+    "address": "400 13TH",
+    "date": "01/29/2018"
+  },
+  {
+    "lon": -78.4892017,
+    "lat": 38.0354868,
+    "type": "Vandalism",
+    "address": "800 WEST",
+    "date": "01/29/2018"
+  },
+  {
+    "lon": -78.4971668,
+    "lat": 38.0380072,
+    "type": "Vandalism",
+    "address": "400 14TH",
+    "date": "01/29/2018"
+  },
+  {
+    "lon": -78.4713809,
+    "lat": 38.04064,
+    "type": "Vandalism",
+    "address": "600 WATSON",
+    "date": "01/29/2018"
+  },
+  {
+    "lon": -78.4985126,
+    "lat": 38.0360899,
+    "type": "Vandalism",
+    "address": "300 14TH",
+    "date": "01/29/2018"
+  },
+  {
+    "lon": -78.5079772,
+    "lat": 38.0335529,
+    "type": "Theft",
+    "address": "1500 UNIVERSITY",
+    "date": "01/29/2018"
+  },
+  {
+    "lon": -78.4691263,
+    "lat": 38.0192101,
+    "type": "Other",
+    "address": "1400 HAMPTON",
+    "date": "01/28/2018"
+  },
+  { "type": "Assault", "address": "400 RIDGE MCINTIRE", "date": "01/28/2018" },
+  {
+    "lon": -78.49940339999999,
+    "lat": 38.0341751,
+    "type": "Assault",
+    "address": "100 14TH",
+    "date": "01/28/2018"
+  },
+  {
+    "lon": -78.4902161,
+    "lat": 38.0334203,
+    "type": "Arrest",
+    "address": "800 HARDY",
+    "date": "01/28/2018"
+  },
+  { "type": "Arrest", "address": "1600 JEFFERSON PARK", "date": "01/28/2018" },
+  {
+    "lon": -78.48791899999999,
+    "lat": 38.0307806,
+    "type": "Theft",
+    "address": "500 MAIN",
+    "date": "01/28/2018"
+  },
+  {
+    "lon": -78.49940339999999,
+    "lat": 38.0341751,
+    "type": "Theft",
+    "address": "100 14TH",
+    "date": "01/28/2018"
+  },
+  {
+    "lon": -78.4964925,
+    "lat": 38.0341953,
+    "type": "Theft",
+    "address": "1200 WERTLAND",
+    "date": "01/28/2018"
+  },
+  {
+    "lon": -78.4867045,
+    "lat": 38.0271303,
+    "type": "Other",
+    "address": "500 RIDGE",
+    "date": "01/27/2018"
+  },
+  {
+    "lon": -78.4786185,
+    "lat": 38.0251028,
+    "type": "Other",
+    "address": "600 AVON",
+    "date": "01/27/2018"
+  },
+  {
+    "lon": -78.4691263,
+    "lat": 38.0192101,
+    "type": "Other",
+    "address": "1400 HAMPTON",
+    "date": "01/27/2018"
+  },
+  {
+    "lon": -78.50058,
+    "lat": 38.0348878,
+    "type": "Other",
+    "address": "100 MINOR COURT",
+    "date": "01/27/2018"
+  },
+  {
+    "lon": -78.49440609999999,
+    "lat": 38.0246454,
+    "type": "Assault",
+    "address": "700 PROSPECT",
+    "date": "01/27/2018"
+  },
+  {
+    "lon": -78.4964925,
+    "lat": 38.0341953,
+    "type": "Assault",
+    "address": "1200 WERTLAND",
+    "date": "01/27/2018"
+  },
+  {
+    "lon": -78.4902161,
+    "lat": 38.0334203,
+    "type": "Assault",
+    "address": "800 HARDY",
+    "date": "01/27/2018"
+  },
+  {
+    "lon": -78.5036624,
+    "lat": 38.0150926,
+    "type": "Other",
+    "address": "500 HARRIS",
+    "date": "01/26/2018"
+  },
+  {
+    "lon": -78.4691263,
+    "lat": 38.0192101,
+    "type": "Assault",
+    "address": "1400 HAMPTON",
+    "date": "01/26/2018"
+  },
+  {
+    "lon": -78.4857883,
+    "lat": 38.02840399999999,
+    "type": "Arrest",
+    "address": "300 MONTICELLO",
+    "date": "01/26/2018"
+  },
+  {
+    "lon": -78.4625618,
+    "lat": 38.0395826,
+    "type": "Theft",
+    "address": "1100 CALHOUN",
+    "date": "01/26/2018"
+  },
+  {
+    "lon": -78.48791899999999,
+    "lat": 38.0307806,
+    "type": "Theft",
+    "address": "500 MAIN",
+    "date": "01/26/2018"
+  },
+  {
+    "lon": -78.46987759999999,
+    "lat": 38.0392796,
+    "type": "Theft",
+    "address": "300 250 BYP",
+    "date": "01/26/2018"
+  },
+  {
+    "lon": -78.513583,
+    "lat": 38.026023,
+    "type": "Theft",
+    "address": "2100 JEFFERSON PARK",
+    "date": "01/26/2018"
+  },
+  {
+    "lon": -78.48165399999999,
+    "lat": 38.029581,
+    "type": "Other",
+    "address": "MARKET",
+    "date": "01/25/2018"
+  },
+  {
+    "lon": -78.47925699999999,
+    "lat": 38.0297705,
+    "type": "Other",
+    "address": "400 MAIN",
+    "date": "01/25/2018"
+  },
+  {
+    "lon": -78.4698885,
+    "lat": 38.0223554,
+    "type": "Assault",
+    "address": "300 CARLTON",
+    "date": "01/25/2018"
+  },
+  {
+    "lon": -78.5153352,
+    "lat": 38.0256736,
+    "type": "Assault",
+    "address": "2200 JEFFERSON PARK",
+    "date": "01/25/2018"
+  },
+  {
+    "lon": -78.47568310000001,
+    "lat": 38.0331918,
+    "type": "Assault",
+    "address": "500 PARK",
+    "date": "01/25/2018"
+  },
+  {
+    "lon": -78.4698885,
+    "lat": 38.0223554,
+    "type": "Arrest",
+    "address": "300 CARLTON",
+    "date": "01/25/2018"
+  },
+  {
+    "lon": -78.48452309999999,
+    "lat": 38.037674,
+    "type": "Vandalism",
+    "address": "700 HENRY",
+    "date": "01/25/2018"
+  },
+  {
+    "lon": -78.4950757,
+    "lat": 38.025189,
+    "type": "Vandalism",
+    "address": "600 PROSPECT",
+    "date": "01/25/2018"
+  },
+  {
+    "lon": -78.47108399999999,
+    "lat": 38.018792,
+    "type": "Theft",
+    "address": "100 WATERBURY",
+    "date": "01/25/2018"
+  },
+  {
+    "lon": -78.494773,
+    "lat": 38.0559659,
+    "type": "Theft",
+    "address": "2000 MORTON",
+    "date": "01/25/2018"
+  },
+  {
+    "lon": -78.480583,
+    "lat": 38.029242,
+    "type": "Robbery",
+    "address": "200 WATER",
+    "date": "01/25/2018"
+  },
+  {
+    "lon": -78.5083337,
+    "lat": 38.0302354,
+    "type": "Robbery",
+    "address": "1700 JEFFERSON PARK",
+    "date": "01/25/2018"
+  },
+  {
+    "lon": -78.471598,
+    "lat": 38.0310732,
+    "type": "Assault",
+    "address": "400 10TH",
+    "date": "01/24/2018"
+  },
+  {
+    "lon": -78.5036624,
+    "lat": 38.0150926,
+    "type": "Assault",
+    "address": "500 HARRIS",
+    "date": "01/24/2018"
+  },
+  {
+    "lon": -78.4985126,
+    "lat": 38.0360899,
+    "type": "Theft",
+    "address": "300 14TH",
+    "date": "01/24/2018"
+  }
+]
