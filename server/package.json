@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "axios": "^0.18.0",
+    "node-geocoder": "^3.22.0",
     "spotcrime": "^1.0.1"
   }
 }
