@@ -11,11 +11,18 @@ crimeJSON = []
 for crime in crimes:
   firstDateIndex = crime.find("0")
   secondDateIndex = crime.find("1")
-  dateIndex = max(firstDateIndex, secondDateIndex) # takes advantage that one is positve, one is -1
+  dateIndex = -1
+  if (firstDateIndex == -1 or secondDateIndex == -1):
+    # takes advantage that one is positve, one is -1
+    dateIndex = max(firstDateIndex, secondDateIndex)
+  else:
+    # both are present, in which case we want the FIRST occurence,
+    # i.e. the min
+    dateIndex = min(firstDateIndex, secondDateIndex)
 
   addressIndex = crime.find("2018") + 4 # add 4 to make up for losing 2018
 
-  crimeType = crime[0: (dateIndex - 1)]
+  crimeType = crime[0: (dateIndex)]
   crimeDate = crime[dateIndex: addressIndex]
   crimeAddress = crime[addressIndex:len(crime)]
 
