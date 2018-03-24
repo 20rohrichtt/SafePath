@@ -4,15 +4,20 @@ import Marker from "./Map/Marker.js";
 
 class Map extends Component {
   renderPolylines(map, maps) {
-    const p = this.props.paths;
-    console.log(p);
+    const { startLat, startLong, endLat, endLong } = this.props;
     const DirectionsService = new maps.DirectionsService();
     const directionsDisplay = new maps.DirectionsRenderer();
-
+    var myLatlng = new maps.LatLng(startLat, startLong);
+    var marker = new maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: "Hello World!"
+    });
+    marker.setMap(map);
     DirectionsService.route(
       {
-        origin: new maps.LatLng(p.start.lat, p.start.lng),
-        destination: new maps.LatLng(p.end.lat, p.end.lng),
+        origin: new maps.LatLng(startLat, startLong),
+        destination: new maps.LatLng(endLat, endLong),
         travelMode: maps.TravelMode.WALKING,
         provideRouteAlternatives: true
       },
@@ -20,7 +25,6 @@ class Map extends Component {
         if (status === maps.DirectionsStatus.OK) {
           for (var i = 0; i < result.routes.length; i++) {
             var dr = new maps.DirectionsRenderer();
-            console.log(result);
             dr.setDirections(result);
             dr.setRouteIndex(i);
             dr.setMap(map);
@@ -29,13 +33,7 @@ class Map extends Component {
                 strokeColor: this.handleCrimeDensity(i)
               }
             });
-            // Tell the DirectionsRenderer which route to display
-            //dr.setRouteIndex(i);
-            //dr.setMap(map);
-
-            // Code ommited to display distance and duration
           }
-          //directionsDisplay.setDirections(result);
         } else {
           console.error(`error fetching directions ${result}`);
         }
