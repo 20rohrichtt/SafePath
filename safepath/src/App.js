@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
-
+import Map from "./Map.js";
 import {
   FormGroup,
   FormControl,
@@ -12,22 +12,23 @@ import {
 
 import "./App.css";
 
+const apiKey = "AIzaSyA0XKCIPo3ew_uNf3qPTHIMfbfF4o6CQkA";
+
 class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      paths: {
+        start: { lat: 38.0314266, lng: -78.5029496 },
+        end: { lat: 38.0409229, lng: -78.49572119 }
+      }
+    };
+  }
   render() {
     return (
       <div className="App">
-        <Grid>
-          <Col md={6}> hid </Col>
-          <Col md={6}> hi </Col>
-        </Grid>
-        <Button> hi </Button>
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Map center={[38.0293, 78.4767]} zoom={4} paths={this.state.paths} />
       </div>
     );
   }
