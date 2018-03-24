@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
-import FindPathComponent from './findPathComponent';
+import FindPathComponent from "./findPathComponent";
 import Map from "./Map.js";
 
 import {
@@ -32,16 +32,19 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <div className="PageHeader">
+          <PageHeader>
+            <h1 className="App-title">SafePath</h1>
+          </PageHeader>
 
-         <PageHeader>
-          <h1 className="App-title">SafePath</h1>
-        </PageHeader>
-     
           <FindPathComponent />
- 
-
-        <Map center={[38.0293, 78.4767]} zoom={4} paths={this.state.paths} />
-
+        </div>
+        <Map
+          className="Map"
+          center={[38.0293, 78.4767]}
+          zoom={4}
+          paths={this.state.paths}
+        />
       </div>
     );
   }
