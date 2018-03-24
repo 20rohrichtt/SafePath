@@ -1,13 +1,17 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
+import FindPathComponent from './findPathComponent';
 import Map from "./Map.js";
+
 import {
   FormGroup,
   FormControl,
   Grid,
   Row,
   Col,
-  Button
+  Button,
+  ButtonToolbar,
+  PageHeader
 } from "react-bootstrap";
 
 import "./App.css";
@@ -28,7 +32,16 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+
+         <PageHeader>
+          <h1 className="App-title">SafePath</h1>
+        </PageHeader>
+     
+          <FindPathComponent />
+ 
+
         <Map center={[38.0293, 78.4767]} zoom={4} paths={this.state.paths} />
+
       </div>
     );
   }
