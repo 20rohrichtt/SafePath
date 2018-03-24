@@ -1,0 +1,1329 @@
+[
+  {
+    "crimeType": "Other",
+    "crimeAddress": "1800 BLOCK OF EMMET",
+    "crimeDate": "03/04/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "1100 BLOCK OF 5TH",
+    "crimeDate": "03/04/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "1200 BLOCK OF EMMET",
+    "crimeDate": "03/04/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "1500 BLOCK OF 6TH",
+    "crimeDate": "03/04/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "400 BLOCK OF JEFFERSON",
+    "crimeDate": "03/04/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "700 BLOCK OF PROSPECT",
+    "crimeDate": "03/03/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "200 BLOCK OF ROBERTSON",
+    "crimeDate": "03/03/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "1700 BLOCK OF EMMET",
+    "crimeDate": "03/03/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "700 BLOCK OF PROSPECT",
+    "crimeDate": "03/03/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "800 BLOCK OF ANDERSON",
+    "crimeDate": "03/03/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "900 BLOCK OF ROCK CREEK",
+    "crimeDate": "03/03/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "500 BLOCK OF ELLIOTT",
+    "crimeDate": "03/03/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "300 BLOCK OF 10TH",
+    "crimeDate": "03/03/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "1000 BLOCK OF LONG",
+    "crimeDate": "03/02/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "500 BLOCK OF 1ST",
+    "crimeDate": "03/02/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "600 BLOCK OF PRESTON",
+    "crimeDate": "03/02/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "700 BLOCK OF MAIN",
+    "crimeDate": "03/02/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "500 BLOCK OF MAIN",
+    "crimeDate": "03/02/2018"
+  },
+  { "crimeType": "Robbery", "crimeAddress": "DICE", "crimeDate": "03/02/2018" },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "200 BLOCK OF 9TH",
+    "crimeDate": "03/01/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "1600 BLOCK OF DUBLIN",
+    "crimeDate": "03/01/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "800 BLOCK OF MAIN",
+    "crimeDate": "03/01/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "1400 BLOCK OF MELBOURNE",
+    "crimeDate": "03/01/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "500 BLOCK OF 12TH",
+    "crimeDate": "03/01/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "1500 BLOCK OF UNIVERSITY",
+    "crimeDate": "03/01/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "100 BLOCK OF MCINTIRE PARK",
+    "crimeDate": "03/01/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "500 BLOCK OF BAINBRIDGE",
+    "crimeDate": "03/01/2018"
+  },
+  {
+    "crimeType": "Burglary",
+    "crimeAddress": "400 BLOCK OF GARRETT",
+    "crimeDate": "03/01/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "300 BLOCK OF 9TH",
+    "crimeDate": "03/01/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "100 BLOCK OF ALTAMONT",
+    "crimeDate": "03/01/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "1200 BLOCK OF CEDARS",
+    "crimeDate": "03/01/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "100 BLOCK OF MARKET",
+    "crimeDate": "02/28/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "1500 BLOCK OF ROSA",
+    "crimeDate": "02/28/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "300 BLOCK OF 7 1/2",
+    "crimeDate": "02/28/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "900 BLOCK OF ELLIOTT",
+    "crimeDate": "02/28/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "800 BLOCK OF CHERRY",
+    "crimeDate": "02/27/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "100 BLOCK OF WESTWOOD",
+    "crimeDate": "02/27/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "1500 BLOCK OF ROSA",
+    "crimeDate": "02/27/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "400 BLOCK OF HIGH",
+    "crimeDate": "02/27/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "300 BLOCK OF MONTICELLO",
+    "crimeDate": "02/27/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "1000 BLOCK OF MAIN",
+    "crimeDate": "02/27/2018"
+  },
+  {
+    "crimeType": "Burglary",
+    "crimeAddress": "300 BLOCK OF AVON",
+    "crimeDate": "02/27/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "100 BLOCK OF MONTICELLO",
+    "crimeDate": "02/27/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "200 BLOCK OF 14TH",
+    "crimeDate": "02/26/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "100 BLOCK OF MARKET",
+    "crimeDate": "02/26/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "800 BLOCK OF MARKET ST",
+    "crimeDate": "02/26/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "600 BLOCK OF HINTON",
+    "crimeDate": "02/26/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "400 BLOCK OF HIGH",
+    "crimeDate": "02/26/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "1000 BLOCK OF ST CHARLES",
+    "crimeDate": "02/26/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "800 BLOCK OF HENRY",
+    "crimeDate": "02/25/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "300 BLOCK OF MARKET",
+    "crimeDate": "02/25/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "300 BLOCK OF MAIN",
+    "crimeDate": "02/25/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "1200 BLOCK OF CEDARS",
+    "crimeDate": "02/25/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "1000 BLOCK OF FOREST",
+    "crimeDate": "02/25/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "1500 BLOCK OF UNIVERSITY",
+    "crimeDate": "02/25/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "1100 BLOCK OF 5TH",
+    "crimeDate": "02/25/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "1500 BLOCK OF UNIVERSITY",
+    "crimeDate": "02/25/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "2000 BLOCK OF HOLIDAY",
+    "crimeDate": "02/25/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "1500 BLOCK OF HIGH",
+    "crimeDate": "02/24/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "800 BLOCK OF MAIN",
+    "crimeDate": "02/24/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "1000 BLOCK OF PRESTON",
+    "crimeDate": "02/24/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "900 BLOCK OF MAIN",
+    "crimeDate": "02/24/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "1500 BLOCK OF VIRGINIA",
+    "crimeDate": "02/24/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "1100 BLOCK OF EMMET ST",
+    "crimeDate": "02/24/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "1500 BLOCK OF UNIVERSITY",
+    "crimeDate": "02/24/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "100 BLOCK OF MAIN",
+    "crimeDate": "02/24/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "1600 BLOCK OF MONTICELLO",
+    "crimeDate": "02/23/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "1400 BLOCK OF VINE",
+    "crimeDate": "02/23/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "1300 BLOCK OF CARLTON",
+    "crimeDate": "02/23/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "700 BLOCK OF 12TH",
+    "crimeDate": "02/23/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "800 BLOCK OF HARDY",
+    "crimeDate": "02/23/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "1500 BLOCK OF HIGH",
+    "crimeDate": "02/23/2018"
+  },
+  {
+    "crimeType": "Burglary",
+    "crimeAddress": "200 BLOCK OF 5TH",
+    "crimeDate": "02/23/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "500 BLOCK OF MAIN",
+    "crimeDate": "02/23/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "500 BLOCK OF MAIN",
+    "crimeDate": "02/23/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "1000 BLOCK OF N EMMET ST",
+    "crimeDate": "02/22/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "PRESTON AVE / MCINTIRE RD",
+    "crimeDate": "02/22/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "900 BLOCK OF RAYMOND",
+    "crimeDate": "02/22/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "100 BLOCK OF CARLTON",
+    "crimeDate": "02/22/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "300 BLOCK OF 11TH",
+    "crimeDate": "02/22/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "500 BLOCK OF JEFFERSON ST",
+    "crimeDate": "02/22/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "200 BLOCK OF 7TH",
+    "crimeDate": "02/22/2018"
+  },
+  {
+    "crimeType": "Burglary",
+    "crimeAddress": "600 BLOCK OF 6TH",
+    "crimeDate": "02/22/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "1000 BLOCK OF MILLMONT",
+    "crimeDate": "02/21/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "300 BLOCK OF AZALEA",
+    "crimeDate": "02/21/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "1500 BLOCK OF DAIRY RD RD N",
+    "crimeDate": "02/21/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "1500 BLOCK OF WESTWOOD",
+    "crimeDate": "02/21/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "1500 BLOCK OF ROSA",
+    "crimeDate": "02/21/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "200 BLOCK OF 7TH",
+    "crimeDate": "02/21/2018"
+  },
+  {
+    "crimeType": "Burglary",
+    "crimeAddress": "800 BLOCK OF KING",
+    "crimeDate": "02/21/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "900 BLOCK OF RAYMOND",
+    "crimeDate": "02/21/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "600 BLOCK OF BELMONT",
+    "crimeDate": "02/21/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "100 BLOCK OF MAYWOOD",
+    "crimeDate": "02/21/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "MONTROSE",
+    "crimeDate": "02/20/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "2000 BLOCK OF INDIA",
+    "crimeDate": "02/20/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "800 BLOCK OF HARDY",
+    "crimeDate": "02/20/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "600 BLOCK OF BELMONT",
+    "crimeDate": "02/20/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "500 BLOCK OF PRESTON",
+    "crimeDate": "02/20/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "300 BLOCK OF 13TH",
+    "crimeDate": "02/19/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "2300 BLOCK OF CRESTMONT",
+    "crimeDate": "02/19/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "300 BLOCK OF PRESTON",
+    "crimeDate": "02/19/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "800 BLOCK OF 1ST",
+    "crimeDate": "02/19/2018"
+  },
+  {
+    "crimeType": "Burglary",
+    "crimeAddress": "100 BLOCK OF BROOKWOOD",
+    "crimeDate": "02/19/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "2300 BLOCK OF ANGUS",
+    "crimeDate": "02/18/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "400 BLOCK OF GARRETT",
+    "crimeDate": "02/18/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "200 BLOCK OF 3RD",
+    "crimeDate": "02/18/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "300 BLOCK OF JOHN WARNER PARKWAY",
+    "crimeDate": "02/18/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "800 BLOCK OF HARDY",
+    "crimeDate": "02/18/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "600 BLOCK OF LEXINGTON",
+    "crimeDate": "02/18/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "1200 BLOCK OF WERTLAND",
+    "crimeDate": "02/18/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "1100 BLOCK OF EMMET ST",
+    "crimeDate": "02/17/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "1200 BLOCK OF LEE",
+    "crimeDate": "02/17/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "1200 BLOCK OF BELLEVIEW",
+    "crimeDate": "02/17/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "200 BLOCK OF HUNTLEY",
+    "crimeDate": "02/17/2018"
+  },
+  {
+    "crimeType": "Burglary",
+    "crimeAddress": "700 BLOCK OF MAPLE",
+    "crimeDate": "02/17/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "500 BLOCK OF MAIN",
+    "crimeDate": "02/17/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "100 BLOCK OF MARKET",
+    "crimeDate": "02/16/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "1400 BLOCK OF EMMET ST",
+    "crimeDate": "02/16/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "100 BLOCK OF 4TH",
+    "crimeDate": "02/16/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "800 BLOCK OF CHERRY",
+    "crimeDate": "02/15/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "100 BLOCK OF MAIN ST",
+    "crimeDate": "02/15/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "900 BLOCK OF MAIN",
+    "crimeDate": "02/15/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "1300 BLOCK OF LONG",
+    "crimeDate": "02/15/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "900 BLOCK OF CHARLTON",
+    "crimeDate": "02/15/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "1400 BLOCK OF VINE",
+    "crimeDate": "02/15/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "800 BLOCK OF MAIN",
+    "crimeDate": "02/15/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "1900 BLOCK OF EMMET",
+    "crimeDate": "02/15/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "2300 BLOCK OF ANGUS",
+    "crimeDate": "02/14/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "1400 BLOCK OF UNIVERSITY",
+    "crimeDate": "02/14/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "1000 BLOCK OF MAIN",
+    "crimeDate": "02/14/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "1900 BLOCK OF N EMMET ST",
+    "crimeDate": "02/14/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "800 BLOCK OF BELMONT",
+    "crimeDate": "02/14/2018"
+  },
+  {
+    "crimeType": "Burglary",
+    "crimeAddress": "700 BLOCK OF GROVE",
+    "crimeDate": "02/14/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "900 BLOCK OF MONTROSE",
+    "crimeDate": "02/14/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "300 BLOCK OF 14TH",
+    "crimeDate": "02/14/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "800 BLOCK OF HARDY",
+    "crimeDate": "02/14/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "1200 BLOCK OF EMMET ST",
+    "crimeDate": "02/13/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "1700 BLOCK OF CHERRY",
+    "crimeDate": "02/13/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "100 BLOCK OF LANKFORD",
+    "crimeDate": "02/13/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "2400 BLOCK OF FONTAINE",
+    "crimeDate": "02/13/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "800 BLOCK OF HARDY",
+    "crimeDate": "02/13/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "1100 BLOCK OF JOHN",
+    "crimeDate": "02/13/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "1000 BLOCK OF RIO",
+    "crimeDate": "02/13/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "400 BLOCK OF GARRETT",
+    "crimeDate": "02/13/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "800 BLOCK OF DALE",
+    "crimeDate": "02/12/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "700 BLOCK OF PROSPECT",
+    "crimeDate": "02/12/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "100 BLOCK OF MAIN",
+    "crimeDate": "02/12/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "200 BLOCK OF DICE",
+    "crimeDate": "02/12/2018"
+  },
+  {
+    "crimeType": "Burglary",
+    "crimeAddress": "2200 BLOCK OF ANGUS",
+    "crimeDate": "02/12/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "500 BLOCK OF PARK",
+    "crimeDate": "02/11/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "1300 BLOCK OF MAIN",
+    "crimeDate": "02/11/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "200 BLOCK OF ZAN",
+    "crimeDate": "02/11/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "300 BLOCK OF 15TH",
+    "crimeDate": "02/11/2018"
+  },
+  {
+    "crimeType": "Burglary",
+    "crimeAddress": "200 BLOCK OF CREAM",
+    "crimeDate": "02/11/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "1000 BLOCK OF LINDEN",
+    "crimeDate": "02/11/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "1400 BLOCK OF BURGESS",
+    "crimeDate": "02/11/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "100 BLOCK OF 14TH",
+    "crimeDate": "02/10/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "1000 BLOCK OF GRADY",
+    "crimeDate": "02/10/2018"
+  },
+  {
+    "crimeType": "Burglary",
+    "crimeAddress": "400 BLOCK OF GARRETT",
+    "crimeDate": "02/10/2018"
+  },
+  {
+    "crimeType": "Burglary",
+    "crimeAddress": "800 BLOCK OF MAIN",
+    "crimeDate": "02/10/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "200 BLOCK OF WATER",
+    "crimeDate": "02/09/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "1500 BLOCK OF ROSA",
+    "crimeDate": "02/09/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "900 BLOCK OF RAYMOND",
+    "crimeDate": "02/09/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "200 BLOCK OF WATER",
+    "crimeDate": "02/09/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "CABELL",
+    "crimeDate": "02/09/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "300 BLOCK OF 11TH",
+    "crimeDate": "02/09/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "500 BLOCK OF RIDGE",
+    "crimeDate": "02/09/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "HYDRAULIC",
+    "crimeDate": "02/09/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "500 BLOCK OF COURT",
+    "crimeDate": "02/09/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "1500 BLOCK OF DAIRY",
+    "crimeDate": "02/09/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "2000 BLOCK OF INDIA",
+    "crimeDate": "02/08/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "1800 BLOCK OF HYDRAULIC",
+    "crimeDate": "02/08/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "1400 BLOCK OF BAKER",
+    "crimeDate": "02/08/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "700 BLOCK OF ORANGEDALE",
+    "crimeDate": "02/08/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "1500 BLOCK OF VIRGINIA",
+    "crimeDate": "02/08/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "1000 BLOCK OF MAIN",
+    "crimeDate": "02/08/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "500 BLOCK OF 7 1/2",
+    "crimeDate": "02/07/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "1000 BLOCK OF GORDON",
+    "crimeDate": "02/07/2018"
+  },
+  {
+    "crimeType": "Burglary",
+    "crimeAddress": "100 BLOCK OF ROTHERY",
+    "crimeDate": "02/07/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "1800 BLOCK OF FENDALL",
+    "crimeDate": "02/07/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "700 BLOCK OF WEST",
+    "crimeDate": "02/07/2018"
+  },
+  {
+    "crimeType": "Robbery",
+    "crimeAddress": "900 BLOCK OF MARKET",
+    "crimeDate": "02/07/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "1800 BLOCK OF HYDRAULIC",
+    "crimeDate": "02/06/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "500 BLOCK OF PRESTON",
+    "crimeDate": "02/06/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "100 BLOCK OF MARKET",
+    "crimeDate": "02/06/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "900 BLOCK OF ST CLAIR",
+    "crimeDate": "02/05/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "800 BLOCK OF MCINTIRE",
+    "crimeDate": "02/05/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "100 BLOCK OF 4TH",
+    "crimeDate": "02/05/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "800 BLOCK OF HARDY",
+    "crimeDate": "02/05/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "1400 BLOCK OF MELBOURNE",
+    "crimeDate": "02/05/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "800 BLOCK OF MAIN",
+    "crimeDate": "02/05/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "1100 BLOCK OF EMMET ST",
+    "crimeDate": "02/05/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "1300 BLOCK OF JOHN",
+    "crimeDate": "02/05/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "600 BLOCK OF SHAMROCK",
+    "crimeDate": "02/04/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "1200 BLOCK OF BELLEVIEW",
+    "crimeDate": "02/04/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "300 BLOCK OF 250 BYPASS",
+    "crimeDate": "02/04/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "800 BLOCK OF MAIN",
+    "crimeDate": "02/04/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "400 BLOCK OF HIGH",
+    "crimeDate": "02/04/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "500 BLOCK OF MAIN",
+    "crimeDate": "02/04/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "200 BLOCK OF WATER",
+    "crimeDate": "02/03/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "100 BLOCK OF MARKET",
+    "crimeDate": "02/03/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "900 BLOCK OF HARRIS",
+    "crimeDate": "02/03/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "800 BLOCK OF MAIN",
+    "crimeDate": "02/02/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "600 BLOCK OF MARKET",
+    "crimeDate": "02/02/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "1200 BLOCK OF EMMET",
+    "crimeDate": "02/02/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "100 BLOCK OF 250 BYPASS",
+    "crimeDate": "02/02/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "500 BLOCK OF 12TH",
+    "crimeDate": "02/02/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "400 BLOCK OF DICE",
+    "crimeDate": "02/01/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "1600 BLOCK OF MERIDIAN",
+    "crimeDate": "02/01/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "2000 BLOCK OF INDIA",
+    "crimeDate": "02/01/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "100 BLOCK OF MARKET",
+    "crimeDate": "02/01/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "200 BLOCK OF MAIN ST",
+    "crimeDate": "02/01/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "2100 BLOCK OF MICHIE",
+    "crimeDate": "02/01/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "300 BLOCK OF UNIVERSITY",
+    "crimeDate": "02/01/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "100 BLOCK OF GOODMAN",
+    "crimeDate": "01/31/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "300 BLOCK OF 5TH",
+    "crimeDate": "01/31/2018"
+  },
+  {
+    "crimeType": "Burglary",
+    "crimeAddress": "1700 BLOCK OF JEFFERSON PARK",
+    "crimeDate": "01/31/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "100 BLOCK OF UNIVERSITY",
+    "crimeDate": "01/31/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "200 BLOCK OF BYPASS",
+    "crimeDate": "01/30/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "300 BLOCK OF 6TH",
+    "crimeDate": "01/30/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "300 BLOCK OF 250 BYPASS",
+    "crimeDate": "01/30/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "700 BLOCK OF MCINTIRE",
+    "crimeDate": "01/30/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "PRESTON AVE / HARRIS",
+    "crimeDate": "01/30/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "700 BLOCK OF HIGH",
+    "crimeDate": "01/30/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "400 BLOCK OF 13TH",
+    "crimeDate": "01/29/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "800 BLOCK OF WEST",
+    "crimeDate": "01/29/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "400 BLOCK OF 14TH",
+    "crimeDate": "01/29/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "600 BLOCK OF WATSON",
+    "crimeDate": "01/29/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "300 BLOCK OF 14TH",
+    "crimeDate": "01/29/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "1500 BLOCK OF UNIVERSITY",
+    "crimeDate": "01/29/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "1400 BLOCK OF HAMPTON",
+    "crimeDate": "01/28/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "400 BLOCK OF RIDGE MCINTIRE",
+    "crimeDate": "01/28/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "100 BLOCK OF 14TH",
+    "crimeDate": "01/28/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "800 BLOCK OF HARDY",
+    "crimeDate": "01/28/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "1600 BLOCK OF JEFFERSON PARK",
+    "crimeDate": "01/28/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "500 BLOCK OF MAIN",
+    "crimeDate": "01/28/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "100 BLOCK OF 14TH",
+    "crimeDate": "01/28/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "1200 BLOCK OF WERTLAND",
+    "crimeDate": "01/28/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "500 BLOCK OF RIDGE",
+    "crimeDate": "01/27/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "600 BLOCK OF AVON",
+    "crimeDate": "01/27/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "1400 BLOCK OF HAMPTON",
+    "crimeDate": "01/27/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "100 BLOCK OF MINOR COURT",
+    "crimeDate": "01/27/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "700 BLOCK OF PROSPECT",
+    "crimeDate": "01/27/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "1200 BLOCK OF WERTLAND",
+    "crimeDate": "01/27/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "800 BLOCK OF HARDY",
+    "crimeDate": "01/27/2018"
+  },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "500 BLOCK OF HARRIS",
+    "crimeDate": "01/26/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "1400 BLOCK OF HAMPTON",
+    "crimeDate": "01/26/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "300 BLOCK OF MONTICELLO",
+    "crimeDate": "01/26/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "1100 BLOCK OF CALHOUN",
+    "crimeDate": "01/26/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "500 BLOCK OF MAIN",
+    "crimeDate": "01/26/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "300 BLOCK OF 250 BYP",
+    "crimeDate": "01/26/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "2100 BLOCK OF JEFFERSON PARK",
+    "crimeDate": "01/26/2018"
+  },
+  { "crimeType": "Other", "crimeAddress": "MARKET", "crimeDate": "01/25/2018" },
+  {
+    "crimeType": "Other",
+    "crimeAddress": "400 BLOCK OF MAIN",
+    "crimeDate": "01/25/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "300 BLOCK OF CARLTON",
+    "crimeDate": "01/25/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "2200 BLOCK OF JEFFERSON PARK",
+    "crimeDate": "01/25/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "500 BLOCK OF PARK",
+    "crimeDate": "01/25/2018"
+  },
+  {
+    "crimeType": "Arrest",
+    "crimeAddress": "300 BLOCK OF CARLTON",
+    "crimeDate": "01/25/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "700 BLOCK OF HENRY",
+    "crimeDate": "01/25/2018"
+  },
+  {
+    "crimeType": "Vandalism",
+    "crimeAddress": "600 BLOCK OF PROSPECT",
+    "crimeDate": "01/25/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "100 BLOCK OF WATERBURY",
+    "crimeDate": "01/25/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "2000 BLOCK OF MORTON",
+    "crimeDate": "01/25/2018"
+  },
+  {
+    "crimeType": "Robbery",
+    "crimeAddress": "200 BLOCK OF WATER",
+    "crimeDate": "01/25/2018"
+  },
+  {
+    "crimeType": "Robbery",
+    "crimeAddress": "1700 BLOCK OF JEFFERSON PARK",
+    "crimeDate": "01/25/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "400 BLOCK OF 10TH",
+    "crimeDate": "01/24/2018"
+  },
+  {
+    "crimeType": "Assault",
+    "crimeAddress": "500 BLOCK OF HARRIS",
+    "crimeDate": "01/24/2018"
+  },
+  {
+    "crimeType": "Theft",
+    "crimeAddress": "300 BLOCK OF 14TH",
+    "crimeDate": "01/24/2018"
+  }
+]
