@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
+import PlacesAutocomplete, { geocodeByAddress, getLatLng, geocodeByPlaceId} from 'react-places-autocomplete';
 
 import {
   FormGroup,
@@ -20,16 +21,12 @@ export default class findPathComponent extends Component {
         super(props);
         this.state = {
             showDropdown: false,
-            origin: "",
-            destination: ""
-        };
-    }
-
-    handleOriginChange(e) {
-        this.setState({
-            ...this.state,
-            origin: e.target.value
-        })
+            startAddress: "Start",
+            endAddress: "End",
+            
+        };  
+        this.onStartChange = (address) => this.setState({ ...this.state, startAddress: address })
+        this.onEndChange = (address) => this.setState({ ...this.state, endAddress: address })
     }
 
     handleDropDownChange() {
@@ -39,21 +36,28 @@ export default class findPathComponent extends Component {
         })
     }
 
-    handleDestinationChange(e) {
-        this.setState({
-            ...this.state,
-            destination: e.target.value
-        })
-    }
-
-    handleDirectionsSubmit() {
-        // send stuff
-        this.setState({
-            ...this.state,
-            showDropdown: false
-        })
-    }
+    handleFormSubmit = (event) => {
+        event.preventDefault()
+    
+        geocodeByAddress(this.state.startAddress)
+          .then(results => getLatLng(results[0]))
+          .then(latLng => console.log('Success for start point', latLng))
+          .catch(error => console.error('Error', error))
+        
+        geocodeByAddress(this.state.endAddress)
+          .then(results => getLatLng(results[0]))
+          .then(latlng => console.log('Success for end point', latlng))
+          .catch(error => console.log('Error', error))
+      }
     render() {
+        const startInputProps = {
+            value: this.state.startAddress,
+            onChange: this.onStartChange,
+          }
+          const endInputProps = {
+            value: this.state.endAddress,
+            onChange: this.onEndChange,
+          }
         return(
             <Grid style = {styles.grid}>
             
@@ -65,27 +69,13 @@ export default class findPathComponent extends Component {
                     </Button>
                 </Row>
                 <Row style = {styles.row}>
-                    <FormControl
-                        style = {{padding: 20}}
-                        bsSize = "lg"
-                        type="text"
-                        value={this.state.origin}
-                        placeholder="Enter starting point"
-                        onChange={(e) => this.handleOriginChange(e)}
-                    />
+                     <PlacesAutocomplete inputProps={startInputProps} />
                 </Row>
                 <Row style = {styles.row}>
-                    <FormControl
-                        style = {{padding: 20}}
-                        bsSize = "lg"
-                        type="text"
-                        value={this.state.destination}
-                        placeholder="Enter destination"
-                        onChange={(e) => this.handleDestinationChange(e)}
-                    />
+                    <PlacesAutocomplete inputProps={endInputProps} />
                 </Row>
                 <Row style = {styles.row}>
-                    <Button bsStyle = "success" onClick = {() => this.handleDirectionsSubmit()} block> Submit</Button>
+                    <Button bsStyle = "success" onClick = {this.handleFormSubmit} block> Submit</Button>
                 </Row>
                     <FormControl.Feedback />
                 </Form>

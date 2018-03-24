@@ -21,11 +21,9 @@ class App extends Component {
          <PageHeader>
           <h1 className="App-title">SafePath</h1>
         </PageHeader>
-        <Grid>
-          <Row>
+     
           <FindPathComponent />
-          </Row>
-        </Grid>
+ 
       </div>
     );
   }
