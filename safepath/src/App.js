@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import FindPathComponent from "./findPathComponent";
 import Map from "./Map.js";
+import expand from "./expand.png";
 import PlacesAutocomplete, {
   geocodeByAddress,
   getLatLng,
@@ -29,6 +30,7 @@ class App extends Component {
     super(props);
 
     this.state = {
+      pageShow: true,
       showDropdown: false,
       startAddress: "start",
       endAddress: "end",
@@ -84,7 +86,8 @@ class App extends Component {
                   startLong: latlngStart.lng,
                   endLat: latlngEnd.lat,
                   endLong: latlngEnd.lng,
-                  serverResponse: response.data
+                  serverResponse: response.data,
+                  pageShow: false
                 });
               } else {
                 alert("error has occured");
@@ -95,28 +98,38 @@ class App extends Component {
       })
       .catch(error => console.error("Error", error));
   };
-
+  reshow = () => {
+    this.setState({
+      pageShow: true
+    });
+  };
   render() {
     return (
       <div className="App">
         {console.log(this.state)}
-        <div className="PageHeader">
-          <PageHeader>
-            <h1 className="App-title">The SafePath</h1>
-          </PageHeader>
+        {this.state.pageShow ? (
+          <div className="PageHeader">
+            <PageHeader>
+              <h1 className="App-title">The SafePath</h1>
+            </PageHeader>
 
-          <FindPathComponent
-            showDropdown={this.state.showDropdown}
-            startAddress={this.state.startAddress}
-            endAddress={this.state.endAddress}
-            onStartChange={this.onStartChange}
-            onEndChange={this.onEndChange}
-            handleFormSubmit={this.handleFormSubmit}
-            setLatLong={this.setState}
-            getMyLocation={() => this.getMyLocation()}
-            handleDropDownChange={() => this.handleDropDownChange()}
-          />
-        </div>
+            <FindPathComponent
+              showDropdown={this.state.showDropdown}
+              startAddress={this.state.startAddress}
+              endAddress={this.state.endAddress}
+              onStartChange={this.onStartChange}
+              onEndChange={this.onEndChange}
+              handleFormSubmit={this.handleFormSubmit}
+              setLatLong={this.setState}
+              getMyLocation={() => this.getMyLocation()}
+              handleDropDownChange={() => this.handleDropDownChange()}
+            />
+          </div>
+        ) : (
+          <div>
+            <img onClick={this.reshow} src={expand} className="expandButton" />
+          </div>
+        )}
         <Map
           className="Map"
           center={[38.0293, -78.4767]}

@@ -45,7 +45,6 @@ export default class findPathComponent extends Component {
                 onClick={this.props.handleDropDownChange}
                 block
               >
-                {" "}
                 Find my path
               </Button>
             </Row>

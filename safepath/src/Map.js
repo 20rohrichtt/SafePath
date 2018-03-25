@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import GoogleMap from "google-map-react";
 import Marker from "./Map/Marker.js";
-
+import blueLights from "./blueLights.js";
 class Map extends Component {
   constructor(props) {
     super(props);
@@ -27,6 +27,16 @@ class Map extends Component {
     console.log(serverResponse);
     const DirectionsService = new maps.DirectionsService();
     const directionsDisplay = new maps.DirectionsRenderer();
+    for (var i = 1; i <= 15; i++) {
+      var myLatlng = new maps.LatLng(blueLights[i].lat, blueLights[i].lng);
+      var marker = new maps.Marker({
+        id: i,
+        position: myLatlng,
+        map: map,
+        icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"
+      });
+      marker.setMap(map);
+    }
     DirectionsService.route(
       {
         origin: new maps.LatLng(startLat, startLong),
@@ -113,7 +123,7 @@ class Map extends Component {
       return <div />;
     } else {
       {
-        console.log(this.state);
+        console.log(blueLights);
       }
       return (
         <GoogleMap
