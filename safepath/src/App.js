@@ -8,6 +8,7 @@ import PlacesAutocomplete, {
   geocodeByPlaceId
 } from "react-places-autocomplete";
 import axios from "axios";
+
 import {
   FormGroup,
   FormControl,
@@ -49,11 +50,29 @@ class App extends Component {
       this.setState({ ...this.state, endAddress: address });
   }
 
-  handleDropDownChange() {
+  getMyLocation() {
+    const location = window.navigator && window.navigator.geolocation
+    if (location) {
+      let lat;
+      let lng;
+      location.getCurrentPosition((position) => {
+          lat = position.coords.latitude;
+          lng = position.coords.longitude;
+        })
     this.setState({
       ...this.state,
-      showDropdown: !this.state.showDropdown
-    });
+        startLat: lat,
+        startLong: lng,
+        startAddress: "Current Location", 
+    })
+      }
+  }
+
+  handleDropDownChange() {
+    this.setState({
+        ...this.state,
+        showDropdown: !this.state.showDropdown
+    })
   }
 
   handleFormSubmit = event => {
@@ -100,17 +119,20 @@ class App extends Component {
         {console.log(this.state)}
         <div className="PageHeader">
           <PageHeader>
-            <h1 className="App-title">SafePath</h1>
+            <h1 className="App-title">The SafePath</h1>
           </PageHeader>
-          <FindPathComponent
-            showDropdown={this.state.showDropdown}
-            startAddress={this.state.startAddress}
-            endAddress={this.state.endAddress}
-            onStartChange={this.onStartChange}
-            onEndChange={this.onEndChange}
-            handleFormSubmit={this.handleFormSubmit}
-            handleDropDownChange={() => this.handleDropDownChange()}
-          />
+
+          <FindPathComponent 
+              showDropdown = {this.state.showDropdown}
+              startAddress = {this.state.startAddress}
+              endAddress =  {this.state.endAddress}
+              onStartChange = {this.onStartChange}
+              onEndChange = {this.onEndChange}
+              handleFormSubmit = {this.handleFormSubmit}
+              setLatLong = {this.setState}
+              getMyLocation = {() => this.getMyLocation()}
+              handleDropDownChange = {() => this.handleDropDownChange()}/>
+          
         </div>
         <Map
           className="Map"
