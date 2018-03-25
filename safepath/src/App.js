@@ -2,11 +2,7 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import FindPathComponent from "./findPathComponent";
 import Map from "./Map.js";
-import PlacesAutocomplete, {
-  geocodeByAddress,
-  getLatLng,
-  geocodeByPlaceId
-} from "react-places-autocomplete";
+import PlacesAutocomplete, { geocodeByAddress, getLatLng, geocodeByPlaceId} from 'react-places-autocomplete';
 
 import {
   FormGroup,
@@ -35,50 +31,71 @@ class App extends Component {
       startLong: -78.5029496,
       endLat: 38.0409229,
       endLong: -78.49572119
+
     };
-    this.onStartChange = address =>
-      this.setState({ ...this.state, startAddress: address });
-    this.onEndChange = address =>
-      this.setState({ ...this.state, endAddress: address });
+    this.onStartChange = (address) => this.setState({ ...this.state, startAddress: address })
+    this.onEndChange = (address) => this.setState({ ...this.state, endAddress: address })
+  }
+
+  getMyLocation() {
+    const location = window.navigator && window.navigator.geolocation
+    if (location) {
+      let lat;
+      let lng;
+      location.getCurrentPosition((position) => {
+          lat = position.coords.latitude;
+          lng = position.coords.longitude;
+        })
+    this.setState({
+      ...this.state,
+        startLat: lat,
+        startLong: lng,
+        startAddress: "Current Location", 
+    })
+      }
   }
 
   handleDropDownChange() {
     this.setState({
-      ...this.state,
-      showDropdown: !this.state.showDropdown
-    });
+        ...this.state,
+        showDropdown: !this.state.showDropdown
+    })
   }
 
-  handleFormSubmit = event => {
-    event.preventDefault();
-
+  handleFormSubmit = (event) => {
+    event.preventDefault()
+    
     geocodeByAddress(this.state.startAddress)
       .then(results => getLatLng(results[0]))
-      .then(latLng => console.log("Success for start point", latLng))
-      .catch(error => console.error("Error", error));
-
+      .then(latLng => console.log('Success for start point', latLng))
+      .catch(error => console.error('Error', error))
+    
     geocodeByAddress(this.state.endAddress)
       .then(results => getLatLng(results[0]))
-      .then(latlng => console.log("Success for end point", latlng))
-      .catch(error => console.log("Error", error));
-  };
+      .then(latlng => console.log('Success for end point', latlng))
+      .catch(error => console.log('Error', error))
+  }
+
 
   render() {
     return (
       <div className="App">
         <div className="PageHeader">
           <PageHeader>
-            <h1 className="App-title">SafePath</h1>
+            <h1 className="App-title">The SafePath</h1>
           </PageHeader>
-          <FindPathComponent
-            showDropdown={this.state.showDropdown}
-            startAddress={this.state.startAddress}
-            endAddress={this.state.endAddress}
-            onStartChange={this.onStartChange}
-            onEndChange={this.onEndChange}
-            handleFormSubmit={this.handleFormSubmit}
-            handleDropDownChange={() => this.handleDropDownChange()}
-          />
+
+          <FindPathComponent 
+              showDropdown = {this.state.showDropdown}
+              startAddress = {this.state.startAddress}
+              endAddress =  {this.state.endAddress}
+              onStartChange = {this.onStartChange}
+              onEndChange = {this.onEndChange}
+              handleFormSubmit = {this.handleFormSubmit}
+              setLatLong = {this.setState}
+              getMyLocation = {() => this.getMyLocation()}
+              handleDropDownChange = {() => this.handleDropDownChange()}/>
+          
         </div>
         <Map
           className="Map"

@@ -20,6 +20,7 @@ export default class findPathComponent extends Component {
     constructor(props) {
         super(props);
     }
+
     render() {
         const startInputProps = {
             value: this.props.startAddress,
@@ -29,25 +30,38 @@ export default class findPathComponent extends Component {
             value: this.props.endAddress,
             onChange: this.props.onEndChange,
           }
+
         return(
             <Grid style = {styles.grid}>
             
               {this.props.showDropdown ?
                <Form>
                 <Row style = {styles.row}>
-                   
                     <Button bsStyle="primary" onClick = {this.props.handleDropDownChange} block> Find my path
                     </Button>
                 </Row>
+
+            
                 <Row style = {styles.row}>
-                     <PlacesAutocomplete inputProps={startInputProps} />
+                    <Col sm={6} style = {{padding: 8}}>
+                        <Row>
+                            <Col sm={6}>
+                                <Button bsStyle = "info" onClick = {this.props.getMyLocation}> Use current </Button>
+                            </Col>
+                            <Col sm={6} >
+                                <PlacesAutocomplete inputProps={startInputProps} />
+                            </Col>
+                        </Row>
+                    </Col>
+                    <Col sm={6} style = {{padding: 8}}>
+                        <PlacesAutocomplete inputProps={endInputProps} />
+                    </Col>
                 </Row>
-                <Row style = {styles.row}>
-                    <PlacesAutocomplete inputProps={endInputProps} />
-                </Row>
-                <Row style = {styles.row}>
-                    <Button bsStyle = "success" onClick = {this.props.handleFormSubmit} block> Submit</Button>
-                </Row>
+    
+                    <Row style = {styles.row}>
+                        <Button bsStyle = "success" onClick = {this.props.handleFormSubmit} block> Submit</Button>
+                    </Row>
+            
                     <FormControl.Feedback />
                 </Form>
                 
