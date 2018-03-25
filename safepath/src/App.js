@@ -2,7 +2,12 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import FindPathComponent from "./findPathComponent";
 import Map from "./Map.js";
-import PlacesAutocomplete, { geocodeByAddress, getLatLng, geocodeByPlaceId} from 'react-places-autocomplete';
+import PlacesAutocomplete, {
+  geocodeByAddress,
+  getLatLng,
+  geocodeByPlaceId
+} from "react-places-autocomplete";
+import axios from "axios";
 
 import {
   FormGroup,
@@ -27,14 +32,22 @@ class App extends Component {
       showDropdown: false,
       startAddress: "start",
       endAddress: "end",
-      startLat: 38.0314266,
-      startLong: -78.5029496,
-      endLat: 38.0409229,
-      endLong: -78.49572119
-
+      startLat: null,
+      startLong: null,
+      endLat: null,
+      endLong: null,
+      serverResponse: null
     };
-    this.onStartChange = (address) => this.setState({ ...this.state, startAddress: address })
-    this.onEndChange = (address) => this.setState({ ...this.state, endAddress: address })
+
+    this.onStartChange = address => {
+      console.log(address);
+      if (address == "start") {
+        this.setState({ ...this.state, startAddress: address });
+      }
+      this.setState({ ...this.state, startAddress: address });
+    };
+    this.onEndChange = address =>
+      this.setState({ ...this.state, endAddress: address });
   }
 
   getMyLocation() {
@@ -62,24 +75,48 @@ class App extends Component {
     })
   }
 
-  handleFormSubmit = (event) => {
-    event.preventDefault()
-    
+  handleFormSubmit = event => {
+    event.preventDefault();
     geocodeByAddress(this.state.startAddress)
       .then(results => getLatLng(results[0]))
-      .then(latLng => console.log('Success for start point', latLng))
-      .catch(error => console.error('Error', error))
-    
-    geocodeByAddress(this.state.endAddress)
-      .then(results => getLatLng(results[0]))
-      .then(latlng => console.log('Success for end point', latlng))
-      .catch(error => console.log('Error', error))
-  }
-
+      .then(latlngStart => {
+        geocodeByAddress(this.state.endAddress)
+          .then(results => getLatLng(results[0]))
+          .then(latlngEnd => {
+            console.log(latlngEnd);
+            const url =
+              "https://us-central1-safepath-1521912285652.cloudfunctions.net/getDirections?start=" +
+              latlngStart.lat +
+              "," +
+              latlngStart.lng +
+              "&end=" +
+              latlngEnd.lat +
+              "," +
+              latlngEnd.lng;
+            console.log(url);
+            axios.get(url).then(response => {
+              if (response.data) {
+                this.setState({
+                  startLat: latlngStart.lat,
+                  startLong: latlngStart.lng,
+                  endLat: latlngEnd.lat,
+                  endLong: latlngEnd.lng,
+                  serverResponse: response.data
+                });
+              } else {
+                alert("error has occured");
+              }
+            });
+          })
+          .catch(error => console.log("Error", error));
+      })
+      .catch(error => console.error("Error", error));
+  };
 
   render() {
     return (
       <div className="App">
+        {console.log(this.state)}
         <div className="PageHeader">
           <PageHeader>
             <h1 className="App-title">The SafePath</h1>
@@ -99,12 +136,13 @@ class App extends Component {
         </div>
         <Map
           className="Map"
-          center={[38.0293, 78.4767]}
-          zoom={4}
+          center={[38.0293, -78.4767]}
+          zoom={10}
           startLat={this.state.startLat}
           startLong={this.state.startLong}
           endLat={this.state.endLat}
           endLong={this.state.endLong}
+          serverResponse={this.state.serverResponse}
         />
       </div>
     );
