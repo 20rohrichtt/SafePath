@@ -50,33 +50,16 @@ class App extends Component {
       this.setState({ ...this.state, endAddress: address });
   }
 
-  getMyLocation() {
-    const location = window.navigator && window.navigator.geolocation
-    if (location) {
-      let lat;
-      let lng;
-      location.getCurrentPosition((position) => {
-          lat = position.coords.latitude;
-          lng = position.coords.longitude;
-        })
-    this.setState({
-      ...this.state,
-        startLat: lat,
-        startLong: lng,
-        startAddress: "Current Location", 
-    })
-      }
-  }
-
   handleDropDownChange() {
     this.setState({
-        ...this.state,
-        showDropdown: !this.state.showDropdown
-    })
+      ...this.state,
+      showDropdown: !this.state.showDropdown
+    });
   }
 
   handleFormSubmit = event => {
     event.preventDefault();
+
     geocodeByAddress(this.state.startAddress)
       .then(results => getLatLng(results[0]))
       .then(latlngStart => {
@@ -122,17 +105,17 @@ class App extends Component {
             <h1 className="App-title">The SafePath</h1>
           </PageHeader>
 
-          <FindPathComponent 
-              showDropdown = {this.state.showDropdown}
-              startAddress = {this.state.startAddress}
-              endAddress =  {this.state.endAddress}
-              onStartChange = {this.onStartChange}
-              onEndChange = {this.onEndChange}
-              handleFormSubmit = {this.handleFormSubmit}
-              setLatLong = {this.setState}
-              getMyLocation = {() => this.getMyLocation()}
-              handleDropDownChange = {() => this.handleDropDownChange()}/>
-          
+          <FindPathComponent
+            showDropdown={this.state.showDropdown}
+            startAddress={this.state.startAddress}
+            endAddress={this.state.endAddress}
+            onStartChange={this.onStartChange}
+            onEndChange={this.onEndChange}
+            handleFormSubmit={this.handleFormSubmit}
+            setLatLong={this.setState}
+            getMyLocation={() => this.getMyLocation()}
+            handleDropDownChange={() => this.handleDropDownChange()}
+          />
         </div>
         <Map
           className="Map"
