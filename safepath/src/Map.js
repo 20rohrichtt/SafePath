@@ -3,17 +3,30 @@ import GoogleMap from "google-map-react";
 import Marker from "./Map/Marker.js";
 
 class Map extends Component {
-  renderPolylines(map, maps) {
-    const { startLat, startLong, endLat, endLong } = this.props;
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      startLat: null,
+      startLong: null,
+      endLat: null,
+      endLong: null,
+      serverResponse: null
+    };
+  }
+  renderPolylines(
+    map,
+    maps,
+    startLat,
+    startLong,
+    endLat,
+    endLong,
+    serverResponse
+  ) {
+    const response = serverResponse;
+    console.log(serverResponse);
     const DirectionsService = new maps.DirectionsService();
     const directionsDisplay = new maps.DirectionsRenderer();
-    var myLatlng = new maps.LatLng(startLat, startLong);
-    var marker = new maps.Marker({
-      position: myLatlng,
-      map: map,
-      title: "Hello World!"
-    });
-    marker.setMap(map);
     DirectionsService.route(
       {
         origin: new maps.LatLng(startLat, startLong),
@@ -22,6 +35,7 @@ class Map extends Component {
         provideRouteAlternatives: true
       },
       (result, status) => {
+        console.log(response);
         if (status === maps.DirectionsStatus.OK) {
           for (var i = 0; i < result.routes.length; i++) {
             var dr = new maps.DirectionsRenderer();
@@ -30,9 +44,31 @@ class Map extends Component {
             dr.setMap(map);
             dr.setOptions({
               polylineOptions: {
-                strokeColor: this.handleCrimeDensity(i)
+                strokeColor: this.handleCrimeDensity(response, i)
               }
             });
+
+            ///Set markers
+
+            if (response) {
+              let latMem = [];
+              const routeIndex = response[i];
+              routeIndex.map(i => {
+                const crimes = i.crimes;
+                crimes.map(c => {
+                  if (!latMem.includes(c.lat)) {
+                    latMem.push(c.lat);
+                    var myLatlng = new maps.LatLng(c.lat, c.lon);
+                    var marker = new maps.Marker({
+                      position: myLatlng,
+                      map: map,
+                      label: c.type
+                    });
+                    marker.setMap(map);
+                  }
+                });
+              });
+            }
           }
         } else {
           console.error(`error fetching directions ${result}`);
@@ -40,25 +76,67 @@ class Map extends Component {
       }
     );
   }
-
-  handleCrimeDensity = i => {
-    if (i % 2) {
-      return "red";
+  componentWillReceiveProps(n) {
+    this.setState({
+      startLat: n.startLat,
+      startLong: n.startLong,
+      endLat: n.endLat,
+      endLong: n.endLong,
+      serverResponse: n.serverResponse
+    });
+  }
+  handleCrimeDensity = (response, i) => {
+    if (!response) {
+      return "black";
     } else {
-      return "green";
+      if (response[i]) {
+        const route = response[i];
+        let amount = 0;
+        route.map(r => {
+          amount += r.crimes.length;
+        });
+        console.log(amount);
+        if (amount <= 8) {
+          return "green";
+        } else if (amount < 16) {
+          return "yellow";
+        } else if (amount < 24) {
+          return "orange";
+        } else {
+          return "red";
+        }
+      }
     }
   };
   render() {
-    return (
-      <GoogleMap
-        bootstrapURLKeys={{ key: "AIzaSyA0XKCIPo3ew_uNf3qPTHIMfbfF4o6CQkA" }}
-        style={{ height: "100vh", width: "100%" }}
-        defaultCenter={this.props.center}
-        defaultZoom={this.props.zoom}
-        yesIWantToUseGoogleMapApiInternals
-        onGoogleApiLoaded={({ map, maps }) => this.renderPolylines(map, maps)}
-      />
-    );
+    if (this.props.loading) {
+      return <div />;
+    } else {
+      {
+        console.log(this.state);
+      }
+      return (
+        <GoogleMap
+          key={this.state.endLat + this.state.startLat}
+          bootstrapURLKeys={{ key: "AIzaSyA0XKCIPo3ew_uNf3qPTHIMfbfF4o6CQkA" }}
+          style={{ height: "100vh", width: "100%" }}
+          defaultCenter={this.props.center}
+          defaultZoom={this.props.zoom}
+          yesIWantToUseGoogleMapApiInternals
+          onGoogleApiLoaded={({ map, maps }) =>
+            this.renderPolylines(
+              map,
+              maps,
+              this.state.startLat,
+              this.state.startLong,
+              this.state.endLat,
+              this.state.endLong,
+              this.state.serverResponse
+            )
+          }
+        />
+      );
+    }
   }
 }
 
